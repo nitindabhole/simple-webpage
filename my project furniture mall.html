@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitin Furniture Store</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ </head>
+
+<body>
+    <!--header-->
+    <header class="bg-dark text-white">
+        <div class="container">
+            <h1 class="text-center pt-3"><i>NITIN <br>FURNITURE MALL<i></h1>
+	<!--navbar-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>Discover Quality Furniture</h2>
+                <p class="lead">Welcome to our store, where you can find a wide selection of beautifully crafted furniture pieces.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>About Us</h2>
+                <p class="lead">We are dedicated to providing our customers with the best in furniture design and comfort.</p>
+            </div>
+        </div>
+    </section>
+	
+   <!--cards-->
+    <section id="products" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Products</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\16767227369-shutterstock_1137167297.jpg" class="card-img-top" alt="Sofa">
+                        <div class="card-body">
+                            <h3 class="card-title">Meeting Table</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\16767227352-g2.png" class="card-img-top" alt="Bed">
+                        <div class="card-body">
+                            <h3 class="card-title">Personal office Table</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				 <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\16767227353-g3.jpg" class="card-img-top" alt="Bed">
+                        <div class="card-body">
+                            <h3 class="card-title">sofaz</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				 <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\Saved Pictures\sofa2.jpeg" class="card-img-top" alt="Bed">
+                        <div class="card-body">
+                            <h3 class="card-title">Sofaz</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				 <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\167672273611-09.jpg" class="card-img-top" alt="Bed">
+                        <div class="card-body">
+                            <h3 class="card-title">Meeting Table</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				 <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="C:\Users\User\Pictures\167672273612-10.jpg" class="card-img-top" alt="Bed">
+                        <div class="card-body">
+                            <h3 class="card-title">Personal office Table</h3>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+         </section>
+	
+   <!--form-->
+    <section id="contact" class="bg-light py-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>Contact Us</h2>
+                <form action="/submit-form" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+     <!--footer-->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Our Furniture Store. All rights reserved.</p>
+         <address>
+                <p>Shop No 1, Old Pune-Bangalore Highway, Pawar Colony, Shivaji Park, Kolhapur, Maharashtra 416008 </p>
+                <p>Email: info@nitinfurniture.com</p>
+                <p>Phone: +1 (123) 456-7890</p>
+				
+		  </address>
+        </div>
+    </footer>
+
+    <!--Bootstrap JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
